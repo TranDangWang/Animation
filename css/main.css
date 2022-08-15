@@ -1,0 +1,135 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	justify-content: center;
+	width: 400px;
+	height: 663px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	
+}
+.coantainer{
+	top: 60px;
+	margin: 0 auto;
+	background: url("../img/https___hypebeast.com_image_2021_09_MSFTSrep-“Untitled”-FW21-Collection-8.jpg");
+	width: 400px;
+	height: 603px;
+	background-size: cover;
+	position: fixed;
+}
+.logo{
+	width: 400px;
+	height: 60px;
+	background: rgba(0,0,0,1.00);
+	display: flex;
+	justify-content: center;
+	animation: bounceInDown 1.5s 0s forwards;
+	box-shadow: 0px 5px 4px rgba(0,0,0,0.71);
+	margin: 0 auto;
+	z-index: 10;
+	position: fixed;
+}
+.vid video{
+	width: 200px;
+	background-size: cover;
+	opacity: .6;
+	animation-name: trip;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	position: absolute;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 0px 5px 4px rgba(0,0,0,0.71);
+	border-bottom: solid 2px white;
+	border-left: solid 2px white;
+	border-right: solid 2px white;;
+	
+	
+}
+@keyframes trip{
+	0%{left: 0px;}
+	50%{left: 200px;}
+	100%{left: 0px;}
+}
+.anim1{
+	text-align: center;
+	font-size: 48px;
+	animation: bounceInLeft 2s 0.5s forwards;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+	margin-top: 200px;
+	text-shadow: 5px 5px 5px black;
+}
+.anim2{
+	text-align: center;
+	font-size: 60px;
+	animation: bounceInRight 2s 0.5s forwards;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 5px 5px 3px black;
+}
+.anim3{
+	width: 400px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background: rgba(255,255,255,.7);
+	margin-top: 40px;
+	opacity: 0;
+	animation-name: nhay;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	position: absolute;
+	margin: 0 auto;
+	opacity: 0;
+	animation-delay: 1s;
+}
+@keyframes nhay{
+	0%{margin-top: 40px;opacity: 0}
+	20%{margin-top: 50px;opacity: 1}
+	30%{margin-top: 40px;opacity: 1}
+	40%{margin-top: 50px;opacity: 1}
+	50%{margin-top: 40px;opacity: 1}
+	60%{margin-top: 50px;opacity: 1}
+	70%{margin-top: 40px;opacity: 1}
+	80%{margin-top: 50px;opacity: 1}
+	90%{margin-top: 40px;opacity: 1}
+	100%{margin-top: 50px;opacity: 1}
+}
+.anim3 a{
+	text-decoration: none;
+	color: black;
+}
+.anim3 a:hover{
+	opacity: .6;
+	font-weight: 700;
+}
+.anim4{
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 170px;
+	display: flex;
+	justify-content: space-around;
+}
+.anim4 a{
+	color: white;
+	animation: rollIn 3s 0.5s forwards;
+	
+}
+.anim4 a:hover{
+	color: rgba(160,160,160,1.00);
+	opacity: .7;
+	box-shadow: 0 5px 4px 4px rgba(0,0,0,.5);
+	
+}
